@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\NetCentricComputing\\NetCentricComputing\\NetCentricComputing.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Desktop\\C-Sharp-Beginner-to-Advance\\NetCentricComputing\\NetCentricComputing\\NetCentricComputing.csproj",
       "projectName": "NetCentricComputing",
-      "projectPath": "C:\\Users\\dell\\Desktop\\NetCentricComputing\\NetCentricComputing\\NetCentricComputing.csproj",
+      "projectPath": "C:\\Users\\dell\\Desktop\\C-Sharp-Beginner-to-Advance\\NetCentricComputing\\NetCentricComputing\\NetCentricComputing.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\NetCentricComputing\\NetCentricComputing\\obj\\",
+      "outputPath": "C:\\Users\\dell\\Desktop\\C-Sharp-Beginner-to-Advance\\NetCentricComputing\\NetCentricComputing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
