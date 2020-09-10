@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace NetCentricComputing
 {
@@ -23,9 +24,18 @@ namespace NetCentricComputing
              10. Decision/Condition
              11. Loops
              12. Break and Continue
+             13. Functions/Method
              */
             // Object Oriented Programming
+            /*
+             * 
+             Class /Object
+
+             Constructor
+
+             */
             Console.WriteLine("Be a .net developer");
+            
         }
     }
 }

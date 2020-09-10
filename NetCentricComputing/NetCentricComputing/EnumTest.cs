@@ -22,7 +22,6 @@ namespace NetCentricComputing
             Thursday,
             Friday,
             Saturday
-
         }
     }
     
