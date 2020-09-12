@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BasicCSharp.FunctionTest</StartupObject>
+    <StartupObject>BasicCSharp.ListTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,7 +48,10 @@
   <ItemGroup>
     <Compile Include="DataTypesTest.cs" />
     <Compile Include="DecisionTest.cs" />
+    <Compile Include="DeligateLamdaExpression.cs" />
     <Compile Include="FunctionTest.cs" />
+    <Compile Include="GenericClassTest.cs" />
+    <Compile Include="ListTest.cs" />
     <Compile Include="LoopTest.cs" />
     <Compile Include="MathTest.cs" />
     <Compile Include="OperatorTest.cs" />
