@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Index"; 
+}
+
+<h1>Index</h1>
+
+<p>Hello from the view template</p>
+<p>@ViewData["Message"]</p>
+<p>@ViewBag.Greeting</p>
+
+@{
+    var a = 10;
+    var b = 20;
+    var sum = a + b;
+    var text = "";
+}
+<p>The sum of @a and @b is @sum</p>
+
+@if (sum >= 20)
+{
+    text = "Yes";
+}else{
+    text = "No";
+}
+<p>The Text is @text</p>
+
+@{
+    List<string> names = new List<string>() {"AAA", "BBBB", "CCC"};
+}
+
+<ul>
+    @foreach (var name in names)
+    {
+        <li>@name</li>
+    }
+</ul>
+
+<ol>
+    @for (int i = 0; i < names.Count; i++)
+    {
+       <li>
+           @names[i]
+       </li>  
+    }
+
+    @for (int i = names.Count - 1; i >= 0 ; i--)
+    {
+         <li>
+           @names[i]
+       </li>  
+    }
+   
+</ol>
